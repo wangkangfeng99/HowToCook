@@ -71,6 +71,12 @@ markdown_extensions:
 plugins:
   - same-dir
   - search
+  - with-pdf:
+      author: GitHub Community
+      copyright: The Unlicense
+      cover_title: How To Cook
+      cover_subtitle: 程序员做饭指南
+      output_path: document.pdf
   - minify:
       minify_html: true
 
